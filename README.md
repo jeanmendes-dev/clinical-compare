@@ -1,4 +1,4 @@
-# clinical-compare
+# 🧪 clinical-compare
 
 ![R](https://img.shields.io/badge/R-4.0%2B-blue?logo=r)
 ![License](https://img.shields.io/badge/license-MIT-green)
