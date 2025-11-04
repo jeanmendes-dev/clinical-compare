@@ -25,6 +25,22 @@ Ideal para ensaios clínicos randomizados, coortes, estudos de eficácia ou qual
 
 ---
 
+## 🖼️ Exemplo de Saída
+
+### Tabela 1: Características basais por grupo de tratamento
+
+![Tabela 1 gerada pelo clinical-compare](tabela1.png)
+
+> A tabela é gerada com `gtsummary` + `gt`, com formatação elegante, alinhamento adequado, valores-p em negrito quando significativos e pronta para incluir em relatórios ou manuscritos.
+
+### Gráficos de comparação
+
+![Gráficos de comparação entre grupos](comparacao_grupos.png)
+
+Boxplots, gráficos de barras e densidade facilitam a interpretação visual das diferenças entre grupos.
+
+---
+
 ## 🚀 Como usar
 
 1. Clone ou baixe este repositório:
