@@ -33,11 +33,15 @@ Ideal para ensaios clínicos randomizados, coortes, estudos de eficácia ou qual
 
 > A tabela é gerada com `gtsummary` + `gt`, com formatação elegante, alinhamento adequado, valores-p em negrito quando significativos e pronta para incluir em relatórios ou manuscritos.
 
-### Gráficos de comparação
+## 📉 Resultado da Regressão Logística Ajustada
 
-![Gráficos de comparação entre grupos](comparacao_grupos.png)
+![Resultado da regressão logística](regressao_resultado.png)
 
-Boxplots, gráficos de barras e densidade facilitam a interpretação visual das diferenças entre grupos.
+Após ajuste por idade, sexo, IMC e diabetes, o efeito do tratamento foi estimado como:
+
+```text
+OR ajustado para 'Tratamento' (vs Controle): 0.66
+(Intervalo de Confiança 95%: 0.32 – 1.32; p = 0.24)
 
 ---
 
