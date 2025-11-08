@@ -3,57 +3,57 @@
 ![R](https://img.shields.io/badge/R-4.0%2B-blue?logo=r)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
-Uma solução automatizada em **R** para análise comparativa de grupos em estudos clínicos ou epidemiológicos. Gera **Tabela 1**, **gráficos profissionais** e **modelos estatísticos ajustados** — tudo em minutos.
+An automated R solution for comparative group analysis in clinical or epidemiological studies. It generates a Table 1, professional visualizations, and adjusted statistical models — all in minutes.
 
-Ideal para ensaios clínicos randomizados, coortes, estudos de eficácia ou qualquer análise que exija caracterização basais com rigor estatístico.
+Ideal for randomized clinical trials, cohort studies, efficacy evaluations, or any analysis requiring baseline characterization with statistical rigor.
 
 ---
 
-## 🔍 O que este projeto oferece?
+## 🔍 What This Project Offers
 
-- 📊 **Tabela 1 pronta para publicação**  
-  Comparação automática de variáveis demográficas e clínicas entre grupos (contínuas e categóricas), com testes estatísticos apropriados.
+- 📊 **Table 1**  
+  Automatically compares demographic and clinical variables between groups (continuous and categorical), using appropriate statistical tests..
   
-- 📈 **Visualizações profissionais**  
-  Boxplots, gráficos de barras e densidade para exploração visual de diferenças entre grupos — com cores e estilo adequados para relatórios clínicos ou reuniões com *stakeholders*.
+- 📈 **Professional Visualizations**  
+  Boxplots, bar charts, and density plots for visual exploration of group differences — styled for clinical reports and stakeholder presentations.*.
 
-- 📉 **Análise estatística avançada**  
-  Regressão logística ajustada para estimar o efeito do grupo (ex: tratamento vs controle) após controle por covariáveis de confusão.
+- 📉 **Advanced Statistical Analysis**  
+  Adjusted logistic regression to estimate the effect of group assignment (e.g., treatment vs. control) after controlling for confounding covariates..
 
-- 🧪 **Dados de exemplo inclusos**  
-  Um arquivo Excel simulado (`dados_exemplo.xlsx`) permite testar o fluxo completo sem depender de dados reais.
+- 🧪 **Built-in Example Data**  
+  A simulated Excel file (dados_exemplo.xlsx) is included to test the full workflow without requiring real clinical data.
 
 ---
 
-## 🖼️ Exemplo de Saída
+## 🖼️ Example Output
 
-### Tabela 1: Características basais por grupo de tratamento
+### Table 1: Baseline Characteristics by Treatment Group
 
 ![Tabela 1 gerada pelo clinical-compare](tabela1.png)
 
-> A tabela é gerada com `gtsummary` + `gt`, com formatação elegante, alinhamento adequado, valores-p em negrito quando significativos e pronta para incluir em relatórios ou manuscritos.
+> The table is generated using gtsummary + gt, featuring elegant formatting, proper alignment, bold p-values when significant, and output ready for inclusion in reports or manuscripts..
 
-### Gráficos de comparação
+### Group Comparison Plots
 
 ![Gráficos de comparação entre grupos](comparacao_grupos.png)
 
-Boxplots, gráficos de barras e densidade facilitam a interpretação visual das diferenças entre grupos.
+Boxplots, bar charts, and density plots facilitate intuitive interpretation of between-group differences..
 
 ---
-## 📉 Resultado da Regressão Logística Ajustada
+## 📉 Adjusted Logistic Regression Results
 
 ![Resultado da regressão logística](regressao_resultado.png)
 
-Após ajuste por idade, sexo, IMC e diabetes, o efeito do tratamento foi estimado como:
+After adjusting for age, sex, BMI, and diabetes, the treatment effect was estimated as:
 
 ```text
-OR ajustado para 'Tratamento' (vs Controle): 0.66
-(Intervalo de Confiança 95%: 0.32 – 1.32; p = 0.24)
+Adjusted OR for 'Treatment' (vs Control): 0.66
+95% Confidence Interval: 0.32 – 1.32; p = 0.241
 
 ---
 
-## 🚀 Como usar
+## 🚀 How to Use
 
-1. Clone ou baixe este repositório:
+1. Clone or download this repository:
    ```bash
    git clone https://github.com/seu-usuario/clinical-compare.git
