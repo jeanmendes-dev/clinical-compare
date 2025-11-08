@@ -11,7 +11,7 @@ Ideal for randomized clinical trials, cohort studies, efficacy evaluations, or a
 
 ## 🔍 What This Project Offers
 
-- 📊 **Table 1**  
+- 📊 **Publication-ready Table 1**  
   Automatically compares demographic and clinical variables between groups (continuous and categorical), using appropriate statistical tests..
   
 - 📈 **Professional Visualizations**  
